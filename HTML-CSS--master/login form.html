@@ -1,0 +1,115 @@
+<html>
+<head>
+</head>
+<body>
+    <form action="trailsimple.html">
+    <div class="imgcontainer">
+        <img src="user.jpg" alt="image" class="image">
+    </div>
+    <div
+    class="container">
+    <label for="username">
+        <b>USERNAME</b>
+    </label>
+    <input type="text" placeholder="ENTER USERNAME" id="username" name="unname" required>
+    <label for="pwd">
+    <b>PASSWORD</b>
+    </label>
+    <input type="password" placeholder="ENTER PASSWORD"  id="pwd" name="psw" required>
+    <button style="float:left;" type="submit"class="button" value="login">LOGIN</button>
+    <input style="right:3px;" type="checkbox" checked="checked">
+    REMEMBER ME
+    </div>
+    <div
+        class="container"
+        style="background-color: #f1f1f1">
+        <input type="reset" value="CLEAR" class="cancelbtn">
+        <span 
+        class="psw">
+        <a href="register.html">FORGOT PASSWORD?</a>
+        </span>
+    </div>
+    </form>
+    <style>
+    form
+    {
+        border:3px solid cadetblue;
+    }
+    input[type=text],
+    input[type=password]
+    {
+        width:100%;
+        padding:12px 20px;
+        margin: 8px 0;
+        display:inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    .button
+    {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        border: none;
+        cursor: pointer;
+        width: 10%; 
+        text-align: center;
+        outline: none;
+        border-radius: 15px;
+        box-shadow:0 5px #999;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: -360;
+        right: 0;
+        height: 40px;
+        
+    }
+    button:hover
+    {
+        opacity: 0.8;
+    }
+    .button:active
+    {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4PX);
+    }
+    .cancelbtn
+    {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #e91010;
+    }
+    .imgcontainer
+    {
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+    img.image
+    {
+        width: 20%;
+        border-radius: 50%;
+    }
+    .container
+    {
+        padding: 16px;
+    }
+    span.psw
+    {
+        float: right;
+        padding-top: 16px;
+    }
+@media screen and (max-width:300px)
+{
+    span.psw
+    {
+        display: block;
+        float:none;
+    }
+    .cancelbtn
+    {
+        width: 100%;
+    }
+}

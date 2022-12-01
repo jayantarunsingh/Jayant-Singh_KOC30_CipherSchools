@@ -1,0 +1,362 @@
+
+
+
+<html>
+<HEAD>
+   <title>www.library management system.com</title>
+</Head>
+
+
+
+
+
+<body leftmargin=0 topmargin=0 marginheight=0 marginwidth=0 bgcolor="orange">
+ <table class="STYLE_CLASS"border="0" cellspacing="0" cellpadding="0"
+ 		leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+ <tr>
+ 	<td id="prashLogo" height="0*" width="0*">
+ 		<table border="0"  cellpadding="0" cellspacing="0" width="100%" height="100%" bgcolor="orange" >
+<table border="0"  cellpadding="0" cellspacing="0" height="100%" width="100%" bgcolor="orange">
+	<tr>
+		<td align="middle" id="logoImg">
+        
+		</td>
+	</tr>
+</table>
+
+ 	</td>
+ 	<td id="prashHeader"  height="100%" >
+         
+ 		
+
+
+<table id="headertbl" border="0" cellpadding="0" cellspacing="0"  width="100%" height="100%" bgcolor="orange">
+    <tr>
+        <td align="middle" valign="center" nowrap width="85%">
+            <!-- Primary bg -->
+            
+            <table height="100%" width="100%" bgcolor="orange">
+                <tr>
+                    <td align="middle" valign="center" nowrap>
+                        <font class="headerFont">
+
+                            
+                            <h1> LIBRARY MANAGEMENT SYSTEM</h1>      <font
+                                style="font-size:12; ">
+                        </font>
+                            
+
+                        </font>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width="15%">
+            <!-- Secondary bg -->
+            <table height="100%" width="100%" border="0" bgcolor="orange">
+                
+            </table>
+        </td>
+    </tr>
+</table>
+ 	</td>
+ </tr>
+
+ <tr>
+     
+     <td height="100%" width='5%' align="middle" valign="top" id="prashMainMenu" bgcolor="orange">
+ 		<table class="mainMenuTbl" cellSpacing="1" cellPadding="1" border="0" width="100%" align="left" valign="top">
+ <tr class="caption">
+  </tr>
+  <tr class="mainMenuTRHead">
+      
+    <td> <strong>SEARCH</strong> </td>
+
+  </tr>
+  <tr>
+      <td></td>
+  </tr>
+<tr class=mainMenuTRHead>
+            <td></td>
+          </tr>
+  <tr>
+  
+    <td></td>
+    
+  </tr>
+
+  <tr class=mainMenuTRHead>
+      
+  </tr>
+   
+   <tr class=mainMenuTRHead>
+        <td></td>
+    </tr>
+</table border="0">
+<br><br><br><br>
+
+
+     </td>
+     
+     <td width='95%' height="100%" valign="top">
+ 		<table border="0" height="100%" width="100%" cellspacing="0" cellpadding="0" bgcolor="orange"
+ 				leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+ 			<tr>
+ 				<td colspan="1" height="2%" width="100%">
+
+
+<table class="titleMenu" cellpadding="1" cellspacing="0" width="100%" bgcolor="orange">
+    <tr>
+        
+        <td class='tMenuTD' nowrap>New Arrivals</td>
+        
+        <td class="titleMenu" align="right" valign="top" width="100%" nowrap>
+            
+            <a class="aHrefTitleMenu" title="Home" href="trailsimple.html"><input type="button" value="HOME"></a>
+            <a class="aHrefTitleMenu" title="Help" target="new" href="help.html"><input type="button" value="HELP"></a>
+            <a class="aHrefTitleMenu" title="Exit" href="login FORM.html"><input type="button" value="LOGOUT"></a>
+            
+        </td>
+    </tr>
+</table>
+				</td>
+ 			</tr>
+ 			
+ 				<tr>
+                    <td colspan=1 height="15%" valign="top">
+ 						<FORM NAME="form" METHOD="GET" ACTION="./newarrival" onsubmit="this.onsubmit= function(){return false;}">
+        <TABLE class="formStyleTable" align=middle border="0" cellpadding=2 cellspacing=2 width="100%">
+            <TR>
+        <TD NOWRAP rowspan="1" colspan="1" align="RIGHT"><B>Reposition</B></TD>
+        <TD NOWRAP rowspan="1" colspan="1" align="LEFT">
+            <INPUT type="TEXT" class="textboxStyle" onfocus="displayKeyBoardFrom(this)" maxlength="10" size="10" id="T1" name="NAREPO" value="">
+            </TD>
+            <TD NOWRAP rowspan="1" colspan="1" align="RIGHT">
+            <B>Database</B></TD>
+            <TD NOWRAP rowspan="1" colspan="1" align="LEFT">
+            <input type="radio" name="RadioNewArr" id="R10" value="0"" onclick="MM_RadioNewArrChange(this.form)" >Journals<input type="radio" name="RadioNewArr" id="R11" value="1" checked " onclick="MM_RadioNewArrChange(this.form)" >Books</TD><TD NOWRAP rowspan="1" colspan="1" align="RIGHT"><INPUT TYPE="SUBMIT" class="buttonStyle" id="B1" name="" value="Go"></TD></TR></TABLE>
+       <input type="hidden" name="nabuttonid" value="r" />
+ </FORM>
+ 				    </td>
+ 				</tr>
+ 				<tr><td valign="top">
+<form action="./selectedBooks" method=get id=form1 target="nidhi">
+<table border="1" class="briefListTbl"  cellspacing="0" cellpadding="5" valign="top">
+
+<tr>
+    <td>
+        <table valign="top" border="0"  cellspacing="0" cellpadding="0" height="100%" width="100%" bgcolor="snow">
+            <tbody class="briefListHead">
+            <tr align="middle">
+                
+                <td  width="55%">
+                    Title
+                </td>
+                
+                <td  width="25%">
+                    Author
+                </td>
+                
+                <td  width="10%">
+                    Year
+                </td>
+                
+                <td  width="20%">
+                    Acc no
+                </td>
+                
+            </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>
+<tr>
+<td class="briefListBody">
+
+<div class="scrollbarTbl" id="divTblScroll" style="overflow:auto;height:320pt;width:670pt;">
+<table class="briefListTbl" border="2" cellspacing="5" cellpadding="0" width="100%" height="100%" bgcolor="wheat">
+<tbody  valign="top">
+<tr class="briefListRow1">
+    <td width="57%"  align="left" >DIGITAL ELECTRONICS</td><td width="25%"  align="left" >EARL  GATES</td><td width="10%"  align="left" >2010</td><td width="20%"  align="left" >S2373</td>
+					</tr>
+                                          
+					<tr class="briefListRow2" ><td width="55%"  align="left" >C ++ PROGRAMMING</td><td width="25%"  align="left" >YASHWANT KANETKAR</td><td width="10%"  align="left" >2005</td><td width="20%"  align="left" >J5431</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >C PROGRAMMING</td><td width="25%"  align="left" >KJ BAINS</td><td width="10%"  align="left" >2016</td><td width="20%"  align="left" >S435231</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >CPP PROGRAMMING</td><td width="25%"  align="left" >RP BALLI</td><td width="10%"  align="left" >2015</td><td width="20%"  align="left" >S4531</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >C PROGRAMMING</td><td width="25%"  align="left" >FAULKNER</td><td width="10%"  align="left" >2013</td><td width="20%"  align="left" >S4531</td>
+					</tr>
+					<tr class="briefListRow2" ><td width="55%"  align="left" >MODERN PHYSICS</td><td width="25%"  align="left" >BK.PANDEY</td><td width="10%"  align="left" >2010</td><td width="20%"  align="left" >K2312</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >SIMPLE MATHEMATICS</td><td width="25%"  align="left" >RK JAIN YOUNGER</td><td width="10%"  align="left" >2007</td><td width="20%"  align="left" >K1234</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >Electrical FUNDAMENTALS</td><td width="25%"  align="left" >RAMAN,VERMA</td><td width="10%"  align="left" >2010</td><td width="20%"  align="left" >K1243</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >MICROPROCESSORS</td><td width="25%"  align="left" >AK. JAIN</td><td width="10%"  align="left" >2008</td><td width="20%"  align="left" >S2998</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >COMBINED MATHEMATICS</td><td width="25%"  align="left" >AMIT, SHARMA</td><td width="10%"  align="left" >2014</td><td width="20%"  align="left" >S5643</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >MICROCONTROLLERS</td><td width="25%"  align="left" > RAMAN,JAIN</td><td width="10%"  align="left" >2014</td><td width="20%"  align="left" >S224</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >PHYSICAL SCIENCES</td><td width="25%"  align="left" >AMIT, GUPTA</td><td width="10%"  align="left" >2006</td><td width="20%"  align="left" >S3241</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >ALIENS ARRIVAL</td><td width="25%"  align="left" >MITHUN</td><td width="10%"  align="left" >2010</td><td width="20%"  align="left" >S2341</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >ABNORMAL SCIENCES</td><td width="25%"  align="left" >DILJIT</td><td width="10%"  align="left" >2012</td><td width="20%"  align="left" >A7643</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >ARCHITECTURE</td><td width="25%"  align="left" >VICKY BANSAL</td><td width="10%"  align="left" >2011</td><td width="20%"  align="left" >A3652</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >ELECTRICAL CIRCUITS</td><td width="25%"  align="left" >PATHAK,NK</td><td width="10%"  align="left" >2017</td><td width="20%"  align="left" >S2310</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >MECHINE DESIGNS</td><td width="25%"  align="left" >SALONI RANI</td><td width="10%"  align="left" >2003</td><td width="20%"  align="left" >S3453</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >MODERN PHYSICS</td><td width="25%"  align="left" >IK , KHURANA</td><td width="10%"  align="left" >2012</td><td width="20%"  align="left" >S3425</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >COMMUNICATIONS</td><td width="25%"  align="left" >KS</td><td width="10%"  align="left" >2003</td><td width="20%"  align="left" >N2753</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >LEVEL TECH</td><td width="25%"  align="left" >RITIK,JH</td><td width="10%"  align="left" >2006</td><td width="20%"  align="left" >K2881</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >BIOLOGICAL ,  TECH </td><td width="25%"  align="left" >KK. BAINS</td><td width="10%"  align="left" >2006</td><td width="20%"  align="left" >A4532</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >PHISICAL PRACTICES</td><td width="25%"  align="left" >MK BRATH</td><td width="10%"  align="left" >2114</td><td width="20%"  align="left" >S4532</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >BIOCHEMISTRY</td><td width="25%"  align="left" >SHITIJ, GUPTA</td><td width="10%"  align="left" >2015</td><td width="20%"  align="left" >S6654</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >GENERAL FACTS</td><td width="25%"  align="left" >RAM ,RAI</td><td width="10%"  align="left" >2007</td><td width="20%"  align="left" >S2067</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >PHYSICS PRACTICAL</td><td width="25%"  align="left" >R.K, BHAGAT</td><td width="10%"  align="left" >2006</td><td width="20%"  align="left" >M45532</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >STORIES</td><td width="25%"  align="left" >TOM, SAYWER</td><td width="10%"  align="left" >2016</td><td width="20%"  align="left" >G1234</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >ACTIVITIES</td><td width="25%"  align="left" >B.K , BAINS</td><td width="10%"  align="left" >2014</td><td width="20%"  align="left" >A5643</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >MECHANICS</td><td width="25%"  align="left" >RK, KUMAR</td><td width="10%"  align="left" >2017</td><td width="20%"  align="left" >S2018</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >GENERAL CHEMISTRY</td><td width="25%"  align="left" >ROBERT, KING</td><td width="10%"  align="left" >2015</td><td width="20%"  align="left" >G5432</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >PHYSICAL PRACTICES</td><td width="25%"  align="left" >RAMAN,KUMAR</td><td width="10%"  align="left" >2017</td><td width="20%"  align="left" >G3421</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >ENGINEERING DRAWING</td><td width="25%"  align="left" >RK , GLOW</td><td width="10%"  align="left" >2000</td><td width="20%"  align="left" >S2715</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >ENGINEERING MATHEMATICS.</td><td width="25%"  align="left" >XAVIER</td><td width="10%"  align="left" >2015</td><td width="20%"  align="left" >S4532</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >FLUID PHYSICS</td><td width="25%"  align="left" > JACKSON</td><td width="10%"  align="left" >2013</td><td width="20%"  align="left" >B4321</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >DETAIL DESIGNS</td><td width="25%"  align="left" >MARTEENA, RAI</td><td width="10%"  align="left" >1998</td><td width="20%"  align="left" >S3421</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >ELECTRICAL MECHANICS</td><td width="25%"  align="left" >KS, KUMAR</td><td width="10%"  align="left" >2004</td><td width="20%"  align="left" >S4325</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >GENERAL BUSSINESS</td><td width="25%"  align="left" > MANDEEP</td><td width="10%"  align="left" >2015</td><td width="20%"  align="left" >F4326</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >SOLIDS</td><td width="25%"  align="left" > BHATT</td><td width="10%"  align="left" >2018</td><td width="20%"  align="left" >M3621</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >ELECTRICAL ELEMENTS</td><td width="25%"  align="left" >SANDEEP</td><td width="10%"  align="left" >2011</td><td width="20%"  align="left" >S5432</td>
+					</tr>
+
+					<tr class="briefListRow1"><td width="55%"  align="left" >SOLIDS IN 3D</td><td width="25%"  align="left" >JB, KHURANA</td><td width="10%"  align="left" >2016</td><td width="20%"  align="left" >S4531</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >HOMESCIENCE</td><td width="25%"  align="left" >DK, BHATTI</td><td width="10%"  align="left" >2016</td><td width="20%"  align="left" >S4535</td>
+					</tr>
+
+					<tr class="briefListRow2" ><td width="55%"  align="left" >C PROGRAMMING</td><td width="25%"  align="left" >RP BALLI</td><td width="10%"  align="left" >2015</td><td width="20%"  align="left" >S4531</td>
+					</tr>
+
+					<tr height="100%" ><td><input type="hidden" name="searchOrBrowse" value="nabooks" /></td></tr>
+           </tbody>
+           </table>
+    </div>
+    
+
+    </td>
+</tr>
+</tbody>
+<tr>
+
+
+                <td class="briefListFoot">
+                   
+                    <table border="0" width="100%" class="briefListFoot" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td align="left" valign="top" width="0*" height="0*" nowrap>
+                           
+                        </td>
+                        <td  align="middle"  valign="center" height="0*">
+                            
+                            </td>
+                            
+                           <td align="right"  valign="top" width="0*" height="0*"  nowrap>
+                           
+                              
+                            
+                        </td>
+                    </tr>
+                </table></td>
+            
+</tr>
+</tfoot>
+</form>
+</table>
+
+
+
+ 				</td></tr>
+ 				</table>
+  </td>
+ </tr>
+ </table>
+ <div id='_MASK_DIV' class='STYLE_CLASS'>
+    <table width="100%" style="height:100%;">
+
+        <tr align="center">
+            <td valign="top"></td>
+        </tr>
+        <tr style="height:10px;"></tr>
+        <tr align="center">
+            <td></td>
+            
+        </tr>
+
+    </table>
+
+</div>
+ 
+ </body>
+</html>
